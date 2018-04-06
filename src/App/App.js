@@ -1,5 +1,5 @@
 import React, { Component } from 'react';
-import logo from './logo.svg';
+import logo from './images/logo.png';
 import './App.css';
 
 class App extends Component {
@@ -8,9 +8,10 @@ class App extends Component {
       <div className="App">
         <header className="App-header">
           <img src={logo} className="App-logo" alt="logo" />
-          <h1 className="App-title">PUBG Leaderboard</h1>
+          <h1 className="App-title">Weasels PUBG Leaderboard</h1>
         </header>
         <p className="App-intro">
+        Lorem ispum dolar
         </p>
       </div>
     );

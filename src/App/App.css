@@ -1,0 +1,35 @@
+.App {
+  text-align: center;
+}
+
+.App-logo {
+  height: 80px;
+}
+
+.App-header {
+  background: 
+  linear-gradient(
+      rgba(255, 255, 255, 0.60), 
+      rgba(0, 0, 0, 0.10)
+    ),
+    url(./images/bg.png);
+  background-size: 100% 160%;
+  background-position:bottom center;
+  background-color: #222;
+  height: 250px;
+  padding: 70px 20px 0 20px;
+  color: white;
+}
+
+.App-title {
+  font-size: 2em;
+}
+
+.App-intro {
+  font-size: 1em;
+}
+
+@keyframes App-logo-spin {
+  from { transform: rotate(0deg); }
+  to { transform: rotate(360deg); }
+}
