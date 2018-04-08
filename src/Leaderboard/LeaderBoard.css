@@ -1,0 +1,21 @@
+.LeaderBoard {
+    border-collapse: collapse;
+    margin:0 auto;
+    width: 90%;
+    background-color: #fff;
+    margin-top:30px;
+}
+
+.TableHeader {
+    font-family: Montserrat;
+    font-size: 12px;
+    color: #fff;
+    line-height: 1.4;
+    text-transform: uppercase;
+    background-color: #36304a;
+}
+
+.TableHeader td {
+    padding-top: 24px;
+    padding-bottom: 20px;
+}
