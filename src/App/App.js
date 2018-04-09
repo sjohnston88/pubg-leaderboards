@@ -40,6 +40,86 @@ class App extends Component {
         kill_death_ratio: 0/50,
         knockdowns:30,
         pan_kills:0
+      },{ 
+        rank: 2,
+        global_rank: 1000000,
+        name: 'Player 3',
+        kills: 0,
+        deaths: 50,
+        assists: 10,
+        kill_death_ratio: 0/50,
+        knockdowns:30,
+        pan_kills:0
+      },{ 
+        rank: 2,
+        global_rank: 1000000,
+        name: 'Player 3',
+        kills: 0,
+        deaths: 50,
+        assists: 10,
+        kill_death_ratio: 0/50,
+        knockdowns:30,
+        pan_kills:0
+      },{ 
+        rank: 2,
+        global_rank: 1000000,
+        name: 'Player 3',
+        kills: 0,
+        deaths: 50,
+        assists: 10,
+        kill_death_ratio: 0/50,
+        knockdowns:30,
+        pan_kills:0
+      },{ 
+        rank: 2,
+        global_rank: 1000000,
+        name: 'Player 3',
+        kills: 0,
+        deaths: 50,
+        assists: 10,
+        kill_death_ratio: 0/50,
+        knockdowns:30,
+        pan_kills:0
+      },{ 
+        rank: 2,
+        global_rank: 1000000,
+        name: 'Player 3',
+        kills: 0,
+        deaths: 50,
+        assists: 10,
+        kill_death_ratio: 0/50,
+        knockdowns:30,
+        pan_kills:0
+      },{ 
+        rank: 2,
+        global_rank: 1000000,
+        name: 'Player 3',
+        kills: 0,
+        deaths: 50,
+        assists: 10,
+        kill_death_ratio: 0/50,
+        knockdowns:30,
+        pan_kills:0
+      },{ 
+        rank: 2,
+        global_rank: 1000000,
+        name: 'Player 3',
+        kills: 0,
+        deaths: 50,
+        assists: 10,
+        kill_death_ratio: 0/50,
+        knockdowns:30,
+        pan_kills:0
+      },{ 
+        rank: 2,
+        global_rank: 1000000,
+        name: 'Player 3',
+        kills: 0,
+        deaths: 50,
+        assists: 10,
+        kill_death_ratio: 0/50,
+        knockdowns:30,
+        pan_kills:0
       }],
       tableHeaders: [{
         Header: 'Rank',
@@ -92,7 +172,6 @@ class App extends Component {
       <div className="App">
         <header className="App-header">
           <img src={logo} className="App-logo" alt="logo" />
-          <h1 className="App-title">{this.state.siteName}</h1>
         </header>
         <section className="Section">
           <LeaderBoard playerData={this.state.playerData} tableHeaders={this.state.tableHeaders} />
