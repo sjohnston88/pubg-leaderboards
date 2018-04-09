@@ -1,28 +1,28 @@
 import React from 'react';
+import ReactTable from 'react-table'
+import 'react-table/react-table.css'
 import './LeaderBoard.css';
 
-import Result from '../Result/Result';
-
 class LeaderBoard extends React.Component {
+
   render(){
     return (
-      <table className="LeaderBoard">
-        <tr className="TableHeader">
-          <td>RANK</td>
-          <td>GLOBAL RANK</td>
-          <td>NAME</td>
-          <td>KILLS</td>
-          <td>DEATHS</td>
-          <td>ASSISTS</td>
-          <td>K:D</td>
-          <td>KNOCKDOWNS</td>
-        </tr>
-        {
-          this.props.playerData.map(playerData => {
-            return <Result playerData={playerData} key={playerData.id} />
-          })
+      <div>
+        <ReactTable
+          className="-striped -highlight"
+          data={this.props.playerData}
+          columns={this.props.tableHeaders}
+          showPagination={false}
+          resizable={false}
+          minRows={0}
+          multiSort={false}
+          defaultSorted={[{
+            id: "rank",
+            desc: false
+          }]
         }
-      </table>
+        />
+      </div>
     );
   }
 }

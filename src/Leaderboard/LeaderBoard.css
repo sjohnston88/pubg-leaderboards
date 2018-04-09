@@ -1,21 +1,35 @@
-.LeaderBoard {
-    border-collapse: collapse;
-    margin:0 auto;
-    width: 90%;
+.ReactTable {
     background-color: #fff;
-    margin-top:30px;
+    border-collapse: collapse;
+    box-sizing: border-box;
+    font-family: Montserrat;
 }
 
-.TableHeader {
-    font-family: Montserrat;
-    font-size: 12px;
+.ReactTable .rt-thead {
+    background-color: #36304a;
     color: #fff;
+    font-size: 16px;
     line-height: 1.4;
     text-transform: uppercase;
-    background-color: #36304a;
 }
 
-.TableHeader td {
-    padding-top: 24px;
-    padding-bottom: 20px;
+.ReactTable .rt-thead .rt-th  {
+    padding: 20px 0
+}
+.ReactTable .rt-thead .rt-th:focus {
+    outline:0;
+}
+
+.ReactTable .rt-td {
+    padding: 15px 0
+}
+
+.ReactTable .rt-thead .rt-th.-sort-asc, .ReactTable .rt-thead .rt-td.-sort-asc {
+    -webkit-box-shadow: inset 0 3px 0 0 rgba(256,256,256,1);
+    box-shadow: inset 0 3px 0 0 rgba(256,256,256,1);
+}
+
+.ReactTable .rt-thead .rt-th.-sort-desc, .ReactTable .rt-thead .rt-td.-sort-desc {
+    -webkit-box-shadow: inset 0 -3px 0 0 rgba(256,256,256,1);
+    box-shadow: inset 0 -3px 0 0 rgba(256,256,256,1);
 }
